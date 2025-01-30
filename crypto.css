@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgb(85, 45, 150);
+  color: white;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f9f9f9;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin-right: 2rem; /* Space between links and search bar */
+}
+
+nav ul li {
+  padding: 0.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff9900; /* Hover color to match the call-to-action button */
+}
+
+.search-bar {
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #333;
+  background-color: white;
+  width: 200px;
+  margin-left: 1rem;
+  transition: width 0.3s ease;
+}
+
+.search-bar:focus {
+  width: 250px;
+  background-color: #f1f1f1;
+}
+
+.search-bar::placeholder {
+  color: #aaa;
+}
+
+/* Crypto News Section */
+.crypto-news {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.crypto-news h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.news-item {
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h3 {
+  color: #1a202c;
+  margin-bottom: 1rem;
+}
+
+.news-item p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.news-item a {
+  text-decoration: none;
+  color: #2575fc;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.news-item a:hover {
+  color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1a202c;
+  color: white;
+}
+
+footer .social-icons {
+  margin-top: 1rem;
+}
+
+footer .social-icons a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #ff9900;
+}

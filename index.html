@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto & Stock Blog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">MarketPulse</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="crypto.html">Crypto</a></li>
+          <li><a href="stocknews.html">Stock News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <input type="search" placeholder="Search..." class="search-bar" />
+      </nav>
+    </header>
+    
+
+    <section class="hero">
+      <h1>Stay Ahead in the Market</h1>
+      <p>Your one-stop source for the most accurate and up-to-date insights.</p>
+      <button class="cta-button">Explore Now</button>
+    </section>
+
+    <section class="featured-blogs">
+      <h2>Featured Articles</h2>
+      <div class="blog-cards">
+        <!-- Blog Card 1 -->
+        <div class="blog-card">
+          <div class="thumbnail">
+            <img
+              src="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+              alt="Bitcoin Trends"
+            />
+            <div class="thumbnail-text">
+              <h3>Crypto Insights 2025</h3>
+              <p>Top Coins to Watch This Year</p>
+            </div>
+          </div>
+          <p class="blog-excerpt">
+            Get insights into Bitcoin's market movement and what lies ahead.
+          </p>
+          <button class="read-more">Read More</button>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="blog-card">
+          <div class="thumbnail">
+            <img
+              src="images/stock.png"
+              alt="Stock Volatility"
+            />
+            <div class="thumbnail-text">
+              <h3>Stock Market Volatility</h3>
+              <p>Key Takeaways for Smart Investing</p>
+            </div>
+          </div>
+          <p class="blog-excerpt">
+            An analysis of recent stock market fluctuations and key takeaways.
+          </p>
+       
+          <button class="read-more">Read More</button>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="market-stats">
+      <h2>Live Market Stats</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Change (24h)</th>
+            </tr>
+          </thead>
+          <tbody id="stats-body">
+            <!-- Data will be populated here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 MarketPulse. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </footer>
+  </body>
+</html>
